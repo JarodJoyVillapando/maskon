@@ -74,22 +74,34 @@ body{
         -webkit-mask-size: cover;
         -webkit-mask-repeat: no-repeat;
         -webkit-mask-position: center;
-        animation: pan 1s infinite;
+        animation: pan 10s;
     }
 
     &__subheader{
         font-size: 3rem;
         font-weight: 500;
         font-style: italic;
+        animation-name: fadein;
+        animation-duration: 20s;
     }
 }
 
-@keyframes pan {
+@keyframes pan{
     0%{
+        opacity: 0;
         background-position: 0 0;
     }
     50%{
+        opacity: 1;
         background-position: 100% 0;
     }
-    
+}
+
+@keyframes fadein{
+    from{
+        color: transparent;
+    }
+    to{
+        color: #fff;
+    }
 }
