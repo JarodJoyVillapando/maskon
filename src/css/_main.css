@@ -56,14 +56,14 @@ body{
 .arizona__header{
     width: 1100px;
     height: 250px;
-    background-image: url(/arizona.3fb7cc4d.jpg);
+    background-image: url(/images/arizona.jpg);
     background-size: cover;
-    mask-image: url(/arizona.51ab527f.svg);
+    mask-image: url(/images/arizona.svg);
     mask-size: cover;
     mask-repeat: no-repeat;
     mask-position: center;
 
-    -webkit-mask-image: url(/arizona.51ab527f.svg);
+    -webkit-mask-image: url(/images/arizona.svg);
     -webkit-mask-size: cover;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
@@ -97,5 +97,3 @@ body{
         color: #fff;
     }
 }
-
-/*# sourceMappingURL=/js.00a46daa.css.map */

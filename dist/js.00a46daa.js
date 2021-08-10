@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/_main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/_main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -192,8 +192,8 @@ module.hot.accept(reloadCSS);
 },{"C:\\Projects\\svg-animation\\src\\images\\arizona.jpg":[["arizona.3fb7cc4d.jpg","images/arizona.jpg"],"images/arizona.jpg"],"C:\\Projects\\svg-animation\\src\\images\\arizona.svg":[["arizona.51ab527f.svg","images/arizona.svg"],"images/arizona.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
-require("/css/_main.scss");
-},{"/css/_main.scss":"css/_main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("/css/_main.css");
+},{"/css/_main.css":"css/_main.css"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62263" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53435" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
