@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/_main.scss":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/_main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Projects\\svg-animation\\src\\images\\arizona.jpg":[["arizona.3fb7cc4d.jpg","images/arizona.jpg"],"images/arizona.jpg"],"C:\\Projects\\svg-animation\\src\\images\\arizona.svg":[["arizona.51ab527f.svg","images/arizona.svg"],"images/arizona.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/process/browser.js":[function(require,module,exports) {
+},{"C:\\Projects\\svg-animation\\images\\arizona.jpg":[["arizona.3fb7cc4d.jpg","images/arizona.jpg"],"images/arizona.jpg"],"C:\\Projects\\svg-animation\\images\\arizona.svg":[["arizona.51ab527f.svg","images/arizona.svg"],"images/arizona.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -398,7 +398,7 @@ process.chdir = function (dir) {
 process.umask = function () {
   return 0;
 };
-},{}],"../node_modules/path-browserify/index.js":[function(require,module,exports) {
+},{}],"node_modules/path-browserify/index.js":[function(require,module,exports) {
 var process = require("process");
 // .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
 // backported and transplited with Babel, with backwards-compat fixes
@@ -703,7 +703,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-},{"process":"../node_modules/process/browser.js"}],"js/.sassrc.js":[function(require,module,exports) {
+},{"process":"node_modules/process/browser.js"}],"js/.sassrc.js":[function(require,module,exports) {
 var process = require("process");
 var path = require('path');
 
@@ -711,13 +711,13 @@ var CWD = process.cwd();
 module.exports = {
   "includePaths": [path.resolve(CWD, 'node_modules'), path.resolve(CWD, 'src')]
 };
-},{"path":"../node_modules/path-browserify/index.js","process":"../node_modules/process/browser.js"}],"js/index.js":[function(require,module,exports) {
+},{"path":"node_modules/path-browserify/index.js","process":"node_modules/process/browser.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 require("/css/_main.scss");
 
 require("/js/.sassrc.js");
-},{"/css/_main.scss":"css/_main.scss","/js/.sassrc.js":"js/.sassrc.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"/css/_main.scss":"css/_main.scss","/js/.sassrc.js":"js/.sassrc.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -745,7 +745,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63379" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57670" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -921,5 +921,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
 //# sourceMappingURL=/js.00a46daa.js.map
