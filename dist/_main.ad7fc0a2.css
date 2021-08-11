@@ -14,6 +14,7 @@ body {
   background-color: #000;
   color: #fff;
 }
+
 .main-nav__list {
   padding: 15px 0;
   list-style: none;
@@ -22,17 +23,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .main-nav__item {
   margin: 0 25px;
 }
-
-.nav-item__link {
+.main-nav__item__link {
   color: #fff;
   text-decoration: none;
   transition: color 0.5s;
 }
-.nav-item__link:hover, .nav-item__link:focus {
-  color: #f2a084;
+.main-nav__item__link:focus, .main-nav__item__link:hover {
+  color: #ededff;
 }
 
 .home-arizona {
