@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url https://jarodjoyvillapando.github.io/maskon/"
+    "build": "parcel build index.html --public-url http://jarodjoyvillapando.github.io/maskon/"
   },
+  "homepage": "https://jarodjoyvillapando.github.io/maskon/",
   "keywords": [],
   "author": "",
   "license": "ISC",
