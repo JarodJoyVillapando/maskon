@@ -14,7 +14,6 @@ body {
   background-color: #000;
   color: #fff;
 }
-
 .main-nav__list {
   padding: 15px 0;
   list-style: none;
@@ -23,16 +22,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .main-nav__item {
   margin: 0 25px;
 }
-.main-nav__item__link {
+
+.nav-item__link {
   color: #fff;
   text-decoration: none;
   transition: color 0.5s;
 }
-.main-nav__item__link:focus, .main-nav__item__link:hover {
+.nav-item__link:focus, .nav-item__link:hover {
   color: #ededff;
 }
 

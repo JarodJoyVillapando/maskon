@@ -13,20 +13,22 @@ body{
     width: 100%;
     background-color: #000;
     color: #fff;
-}
 
-.main-nav__list{
-    padding: 15px 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+    &__list{
+        padding: 15px 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-.main-nav__item{
+    &__item{
     margin: 0 25px;
-    
+    }
+}
+ 
+.nav-item{
     &__link{
     color: #fff;
     text-decoration: none;
